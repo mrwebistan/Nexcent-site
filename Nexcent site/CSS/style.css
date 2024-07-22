@@ -1,0 +1,63 @@
+/* ======GOOGLE FONT IMPORT LINK======= */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --btn-basic-clr--: #4caf4f;
+  --bg-color-1--: #fff;
+  --bg-color-1--: #e9d7d7;
+  --footer-bg-clr--: #263238;
+  --heading-font-size--: ;
+  --heading-font-weight: ;
+  --text-font-weight: ;
+  --text-font-size--: ;
+  --btn-font-size-: ;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--bg-color-1--);
+}
+/*---START---------HEADER SECTION-----------*/
+
+/*---END---------HEADER SECTION-----------*/
+
+/* ----START---------CLIENTS SECTION----------- */
+
+/* <!----END---------CLIENTS SECTION-----------> */
+
+/* <!----START---------COMMUNITY SECTION-----------> */
+
+/* <!----END---------COMMUNITY SECTION-----------> */
+
+/* <!----START---------UNLOCK SECTION-----------> */
+
+/* ----END---------UNLOCK SECTION---------- */
+
+/* ----START---------ACHIEVEMENTS SECTION---------- */
+
+/* ----END---------ACHIEVEMENTS SECTION---------- */
+
+/* ----START---------CALENDER SECTION---------- */
+
+/* ----END---------CALENDER SECTION----------- */
+
+/* ----START---------CUSTOMER SECTION----------- */
+
+/* ----END---------CUSTOMER SECTION----------- */
+
+/* ----START---------COMMUNITY UPDATES SECTION-----------*/
+
+/* ----END---------COMMUNITY UPDATES SECTION----------- */
+
+/* ----START---------FOOTER SECTION----------- */
+
+/* ----END---------FOOTER SECTION----------- */
+
+
+
+/* =================================RESPONSIVE ================ */
