@@ -11,7 +11,8 @@
   --bg-color-1--: #fff;
   --bg-color-2--: #f0e3e3;
   --footer-bg-clr--: #263238;
-  --heading-font-size--: 3em;
+  --heading-font-size--: 4em;
+  --min-heading-font-size--: 3em;
   --heading-font-weight: 700;
   --text-font-weight: 600;
   --text-font-size--: 1em;
@@ -22,16 +23,37 @@ body {
   font-family: "Poppins", sans-serif;
   background: var(--bg-color-1--);
 }
-
-.section-1 {
-  background: var(--bg-color-2--);
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 70px 0;
 }
-
+.section-1 {
+  width: 100vw;
+  background: var(--bg-color-2--);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+}
+button {
+  font-weight: var(--text-font-weight);
+  font-size: 1.12m;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
 /*---START---------HEADER SECTION-----------*/
 .header {
   width: 100vw;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header .nav {
@@ -72,14 +94,7 @@ body {
 }
 
 .header .btn button {
-  font-weight: var(--text-font-weight);
-  font-size: 1.12m;
-  background: transparent;
-  outline: none;
-  border: none;
   margin: 0 15px;
-  cursor: pointer;
-  border-radius: 10px;
 }
 .header .btn .btn-1 {
   border: 2px solid var(--btn-basic-clr--);
@@ -87,7 +102,7 @@ body {
   padding: 12px 18px;
   transition: 0.3s;
 }
-.header .btn .btn-2 {
+.btn-2 {
   border: 2px solid var(--btn-basic-clr--);
   background: var(--btn-basic-clr--);
   font-weight: var(--text-font-weight);
@@ -98,6 +113,36 @@ body {
   background: var(--btn-basic-clr--);
 }
 
+.header .landing-sec {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.landing-sec .text-side h1 {
+  font-size: var(--heading-font-size--);
+  font-weight: var(--heading-font-weight);
+}
+.landing-sec span {
+  color: var(--btn-basic-clr--);
+}
+.landing-sec .text {
+  font-size: 1em;
+  margin: 50px 0;
+}
+
+.landing-sec button {
+  padding: 13px 30px;
+}
+.landing-sec .img-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-sec .img-side img {
+  width: 400px;
+}
 /*---END---------HEADER SECTION-----------*/
 
 /* ----START---------CLIENTS SECTION----------- */
