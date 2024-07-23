@@ -9,20 +9,94 @@
 :root {
   --btn-basic-clr--: #4caf4f;
   --bg-color-1--: #fff;
-  --bg-color-1--: #e9d7d7;
+  --bg-color-2--: #f0e3e3;
   --footer-bg-clr--: #263238;
-  --heading-font-size--: ;
-  --heading-font-weight: ;
-  --text-font-weight: ;
-  --text-font-size--: ;
-  --btn-font-size-: ;
+  --heading-font-size--: 3em;
+  --heading-font-weight: 700;
+  --text-font-weight: 600;
+  --text-font-size--: 1em;
+  --btn-font-size-: 1.1em;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   background: var(--bg-color-1--);
 }
+
+.section-1 {
+  background: var(--bg-color-2--);
+}
+
 /*---START---------HEADER SECTION-----------*/
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.header .nav {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+}
+.header .logo {
+  font-size: 2em;
+  font-weight: var(--heading-font-weight);
+  margin-left: 5px;
+  cursor: default;
+}
+.header img {
+  width: 1.5em;
+}
+
+.header .nav-list {
+  display: flex;
+}
+
+.header .nav-list li {
+  margin: 0 15px;
+  list-style: none;
+}
+
+.header .nav-list a {
+  text-decoration: none;
+  font-weight: var(--text-font-weight);
+  color: #00000096;
+  transition: 0.3s;
+}
+
+.header .nav-list a:hover {
+  color: #000;
+}
+
+.header .btn button {
+  font-weight: var(--text-font-weight);
+  font-size: 1.12m;
+  background: transparent;
+  outline: none;
+  border: none;
+  margin: 0 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.header .btn .btn-1 {
+  border: 2px solid var(--btn-basic-clr--);
+  font-weight: var(--text-font-weight);
+  padding: 12px 18px;
+  transition: 0.3s;
+}
+.header .btn .btn-2 {
+  border: 2px solid var(--btn-basic-clr--);
+  background: var(--btn-basic-clr--);
+  font-weight: var(--text-font-weight);
+  padding: 12px 18px;
+}
+
+.header .btn .btn-1:hover {
+  background: var(--btn-basic-clr--);
+}
 
 /*---END---------HEADER SECTION-----------*/
 
@@ -57,7 +131,5 @@ body {
 /* ----START---------FOOTER SECTION----------- */
 
 /* ----END---------FOOTER SECTION----------- */
-
-
 
 /* =================================RESPONSIVE ================ */
